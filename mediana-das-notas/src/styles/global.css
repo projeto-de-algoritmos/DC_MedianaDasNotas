@@ -1,0 +1,42 @@
+:root {
+  --primary: #058BD6;
+  --primaryHover: #0576B7;
+  --primaryActive: #046299;
+  --primaryFocus: #034F7A;
+  --primaryDark: #02314C;
+  --secondary: #02314C;
+  --white: #FAFAFA;
+  --black: #121212;
+  --gray: #D6D6D6;
+  --text: #565656;
+  --disabled: #B3B3B3;
+  --disabledText: #565656;
+  --danger: #D60537;
+  --dangerHover: #B7052E;
+  --dangerActive: #890423;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+}
+
+a {
+  transition: filter 0.3s;
+}
+
+a:hover {
+  filter: brightness(0.8);
+}

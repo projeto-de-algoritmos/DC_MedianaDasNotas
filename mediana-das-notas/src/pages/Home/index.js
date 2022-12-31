@@ -1,6 +1,7 @@
-export default function Home()
-{
-  return(
-      <h1>home</h1>
+export default function Home() {
+  return (
+    <div className='page'>
+      <h1>Mediana das Notas</h1>
+    </div>
   );
 }
