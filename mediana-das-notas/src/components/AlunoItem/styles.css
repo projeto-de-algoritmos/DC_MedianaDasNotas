@@ -1,3 +1,16 @@
-.active {
-  color: lightblue;
+.aluno-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.aluno-item p:first-child {
+  text-transform: capitalize;
+}
+
+.aluno-item.active p {
+  font-weight: 600;
+  color: var(--primary);
 }

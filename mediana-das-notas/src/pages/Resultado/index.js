@@ -8,14 +8,14 @@ export default function Home()
   const [alunos, setAlunos] = useState([
     {
       nome: 'arthur', 
-      nota: 5
+      nota: 6
     }, 
     {
       nome: 'sara', 
-      nota: 500
+      nota: 5
     },
     {
-      nome: 'joao', 
+      nome: 'joão', 
       nota: 10
     },
     {
@@ -28,7 +28,15 @@ export default function Home()
     },
     {
       nome: 'valentinho', 
-      nota: 500
+      nota: 3
+    }, 
+    {
+      nome: 'joaquim', 
+      nota: 7
+    },
+    {
+      nome: 'isabela',
+      nota: 4
     }
   ]);
   const [mediana, setMediana] = useState(-1);
@@ -44,10 +52,10 @@ export default function Home()
       <div className='page'>
         <h1>Listagem de alunos</h1>
         <p>Adicione os alunos e descubra o valor da mediana das notas</p>
-        <AlunoForm onPush={(aluno) => {setAlunos([...alunos, aluno])}} />
+        <AlunoForm onPush={(aluno) => {setAlunos([aluno, ...alunos])}} />
         { alunos.map((aluno) => {
           return(
-            <AlunoItem { ...aluno } isMediana={ mediana===aluno.nota } />
+            <AlunoItem { ...aluno } isMediana={ mediana===Number(aluno.nota) } />
           );
         }) }
       </div>

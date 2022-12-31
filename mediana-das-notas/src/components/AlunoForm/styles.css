@@ -1,0 +1,9 @@
+.aluno-form {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}

@@ -1,8 +1,10 @@
-export default function Input({label, placeholder, value, onChange}) {
+import './styles.css';
+
+export default function Input({label, placeholder, value, onChange, type}) {
   return(
-    <div>
+    <div className='input-container'>
       <label>{ label }</label>
-      <input value={ value } placeholder={ placeholder } onChange={ ({ target }) => { onChange(target.value) } }/>
+      <input min='0' value={ value } placeholder={ placeholder } type={ type || 'text' } onChange={ ({ target }) => { onChange(target.value) } }/>
     </div>
   )
 }
