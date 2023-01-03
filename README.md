@@ -13,18 +13,21 @@
 Este projeto visa aplicar o algoritmo de mediana das medianas utilizando o contexto de um sistema que deseja indicar a mediana das notas dos alunos de uma escola.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![inicio](./assets/inicio.png)
+
+![resultado](./assets/resultado.png)
 
 ## Instalação 
 **Linguagem**: JavaScript<br>
 **Framework**: ReactJS<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+Para rodar o projeto é necessário inicialmente rodar os seguintes comandos: 
+
+    cd mediana-das-notas
+    npm install
+    npm start
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Após acessar o projeto no browser, o usuário irá encontrar uma página com uma breve descrição de onde será encaminhado para a página em que o algoritmo é executado. Nesta segunda página será possível adicionar alguns alunos e suas respectivas notas e observar em tempo real a nova mediana das notas sendo destacada. 
 
 
 

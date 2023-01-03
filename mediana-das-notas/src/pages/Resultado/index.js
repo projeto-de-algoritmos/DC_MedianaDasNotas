@@ -7,35 +7,35 @@ export default function Home()
 {
   const [alunos, setAlunos] = useState([
     {
-      nome: 'arthur', 
+      nome: 'luke skywalker', 
       nota: 6
     }, 
     {
-      nome: 'sara', 
+      nome: 'leia organa', 
       nota: 5
     },
     {
-      nome: 'joão', 
+      nome: 'yoda', 
       nota: 10
     },
     {
-      nome: 'ernesto', 
+      nome: 'chewbacca', 
       nota: 1
     },
     {
-      nome: 'olga', 
+      nome: 'din djarin', 
       nota: 8
     },
     {
-      nome: 'valentinho', 
+      nome: 'han solo', 
       nota: 3
     }, 
     {
-      nome: 'joaquim', 
+      nome: 'obi-wan kenobi', 
       nota: 7
     },
     {
-      nome: 'isabela',
+      nome: 'darth vader',
       nota: 4
     }
   ]);
