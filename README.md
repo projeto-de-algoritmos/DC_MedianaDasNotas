@@ -7,7 +7,6 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 17/0045269  |  Sara Campos |
-| 18/0125974 | Lucas Rodrigues Monteiro |
 
 ## Sobre 
 Este projeto visa aplicar o algoritmo de mediana das medianas utilizando o contexto de um sistema que deseja indicar a mediana das notas dos alunos de uma escola.
@@ -29,5 +28,5 @@ Para rodar o projeto é necessário inicialmente rodar os seguintes comandos:
 ## Uso 
 Após acessar o projeto no browser, o usuário irá encontrar uma página com uma breve descrição de onde será encaminhado para a página em que o algoritmo é executado. Nesta segunda página será possível adicionar alguns alunos e suas respectivas notas e observar em tempo real a nova mediana das notas sendo destacada. 
 
-
-
+## Vídeo 
+O vídeo explicando o projeto pode ser acessado através da pasta assets após a clonagem do projeto. 
